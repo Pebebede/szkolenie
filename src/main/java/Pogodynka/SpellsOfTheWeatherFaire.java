@@ -8,7 +8,7 @@ public class SpellsOfTheWeatherFaire {
     private String weather;
 
     public String createForecast() {
-
+//.
         String day = LocalDate.now().getDayOfWeek().name();
 
         String weatherForecast = forecaster.forecast();
