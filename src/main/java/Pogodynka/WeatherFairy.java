@@ -10,7 +10,7 @@ public class WeatherFairy {
         this.random = new Random();
     }
 
-    public String forecast() {
+    public String makeIt() {
         double propability = this.random.nextDouble();
 
         if (propability <= 0.1) {
